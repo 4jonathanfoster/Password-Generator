@@ -2,7 +2,7 @@ var lowercaseArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l'
 var uppercaseArray = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
 var specialCharArray = [' ', '!', '#', '$', '%', '&', '(', ')', '*', '+', ',', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', ',', '^', '_', '`', '{', '}', '|', '~', '"'];
 var numberArray = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'];
-var superArray = []; // this is gonna contain whatever the user chooses (yes not no) into one giant array that concatinates from the other arrays
+var superArray = []; 
 var generateBtn = document.querySelector('#generate');
 
 function writePassword() {
@@ -22,7 +22,7 @@ function generatePassword() {
         alert('no password');
     }
 
-    var lengthMsg = parseInt(prompt('please enter the length of characters  for your password, between 9 and less than 128'));
+    var lengthMsg = parseInt(prompt('please enter the length of characters for your password, between 9 and less than 128'));
     console.log(lengthMsg);
     if ((lengthMsg >= 9 && lengthMsg <= 128) && (!isNaN(lengthMsg))) {
         console.log('Wonderful');
