@@ -1,10 +1,10 @@
 # Password-Generator
 
-####The project was presented to create a random and secure password generator with customized options desided by the user.
+The project was presented to create a random and secure password generator with customized options desided by the user.
 
 - view details [homework assignment details](https://github.com/the-Coding-Boot-Camp-at-UT/UTA-VIRT-FSF-FT-06-2021-U-LOL/tree/master/03-JavaScript/02-Homework)
 
--view guide [README GUIDE from UT](https://github.com/the-Coding-Boot-Camp-at-UT/UTA-VIRT-FSF-FT-06-2021-U-LOL/blob/master/01-HTML-Git-CSS/02-Homework/Homework-Guide/README.md)
+- view guide [README GUIDE from UT](https://github.com/the-Coding-Boot-Camp-at-UT/UTA-VIRT-FSF-FT-06-2021-U-LOL/blob/master/01-HTML-Git-CSS/02-Homework/Homework-Guide/README.md)
 
 ##  SudoCode 
 
